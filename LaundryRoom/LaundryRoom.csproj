@@ -63,6 +63,7 @@
     <Compile Include="Classes\Colors.cs" />
     <Compile Include="Classes\Darks.cs" />
     <Compile Include="Classes\LaundryItem.cs" />
+    <Compile Include="Classes\LaundryPile.cs" />
     <Compile Include="Classes\Whites.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

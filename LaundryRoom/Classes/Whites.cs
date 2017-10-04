@@ -8,7 +8,7 @@ namespace LaundryRoom.Classes
 {
     public class Whites : LaundryItem
     {
-        public Whites(string clothingColor, string clothingMaterial) : base(clothingColor, clothingMaterial)
+        public Whites(string itemName, string itemColor, string itemMaterial) : base(itemName, itemColor, itemMaterial)
         {
 
         }

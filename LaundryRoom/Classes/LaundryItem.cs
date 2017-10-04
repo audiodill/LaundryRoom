@@ -8,23 +8,29 @@ namespace LaundryRoom.Classes
 {
     public abstract class LaundryItem
     {
-        private string clothingColor;
-        private string clothingMaterial;
+        private string itemColor;
+        private string itemMaterial;
+        private string itemName;
 
-        public string ClothingColor
+        public string ItemName
         {
-            get { return clothingColor; }
+            get { return ItemName; }
+        }
+        public string ItemColor
+        {
+            get { return itemColor; }
         }
 
-        public string ClothingMaterial
+        public string ItemMaterial
         {
-            get { return clothingMaterial; }
+            get { return itemMaterial; }
         }
 
-        public LaundryItem(string clothingColor, string clothingMaterial)
+        public LaundryItem(string itemName, string itemColor, string itemMaterial)
         {
-            this.clothingColor = clothingColor;
-            this.clothingMaterial = clothingMaterial;
+            this.itemName = itemName;
+            this.itemColor = itemColor;
+            this.itemMaterial = itemMaterial;
         }
 
         public abstract string ClothingDone();
